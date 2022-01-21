@@ -1,0 +1,16 @@
+{
+  "name": "viteblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "stylus": "^0.56.0",
+    "stylus-loader": "^6.2.0",
+    "vitepress": "^0.21.6"
+  }
+}
