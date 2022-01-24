@@ -1,4 +1,4 @@
-yarn docs:build
+yarn build
 cd ./docs/.vuepress/dist
 git init
 git add -A

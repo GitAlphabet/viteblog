@@ -1,1 +1,1 @@
-yarn docs:dev
+yarn dev
