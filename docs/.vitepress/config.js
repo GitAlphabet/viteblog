@@ -28,6 +28,10 @@ module.exports = {
         link: '/home/CSS/less',
       },
       {
+        text: '算法',
+        link: '/algorithm/Simple/first',
+      },
+      {
         text: '其他',
         link: '/other/computer-binary',
       },
@@ -203,6 +207,7 @@ module.exports = {
           children: [
             { text: 'SQL 语句', link: '/home/DataBase/sql' },
             { text: '安装 Mysql faq', link: '/home/DataBase/faq' },
+            { text: 'Mysql 启动与关闭', link: '/home/DataBase/mysql' },
           ],
         },
         {
@@ -220,6 +225,28 @@ module.exports = {
             { text: 'react 面试题', link: '/home/Subject/react' },
             { text: 'vue 面试题', link: '/home/Subject/vue' },
           ],
+        },
+      ],
+      '/algorithm/': [
+        {
+          text: '简单',
+          children: [
+            { text: '买卖股票的最佳时机', link: '/algorithm/Simple/first' },
+            { text: '两数之和', link: '/algorithm/Simple/second' },
+          ],
+        },
+        {
+          text: '中等',
+          children: [
+            {
+              text: '有效三角形的个数',
+              link: '/algorithm/Middling/triangle-number',
+            },
+          ],
+        },
+        {
+          text: '困难',
+          children: [],
         },
       ],
 
